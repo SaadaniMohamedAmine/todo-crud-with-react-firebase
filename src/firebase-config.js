@@ -2,19 +2,16 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCbMUXim6Z-ODpnAory4PGD541Ykq5QHbg",
-  authDomain: "crud-react-firebase-4cf59.firebaseapp.com",
-  projectId: "crud-react-firebase-4cf59",
-  storageBucket: "crud-react-firebase-4cf59.appspot.com",
-  messagingSenderId: "230743172070",
-  appId: "1:230743172070:web:f6efd483fc100fa84fec27",
-  measurementId: "G-87GWS66Q2V",
+  apiKey: "AIzaSyBhnfTCpZRN6NKFJXjecF0vcPLSbhzRcfk",
+  authDomain: "crud-todo-react-firebase.firebaseapp.com",
+  projectId: "crud-todo-react-firebase",
+  storageBucket: "crud-todo-react-firebase.appspot.com",
+  messagingSenderId: "573329157448",
+  appId: "1:573329157448:web:9a5fe9247816237fbb977d",
+  measurementId: "G-CZKQS92Z1F",
 };
 
-// Initialize Firebase application
 const app = initializeApp(firebaseConfig);
-
-// Initialize Firebase firestore database
 const db = getFirestore(app);
 
 export default db;
